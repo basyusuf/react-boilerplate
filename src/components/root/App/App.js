@@ -6,6 +6,7 @@ import {Switch,Route} from 'react-router-dom';
 function App() {
   return (
     <div className="app">
+        Font Test
         <h1>React Boiler Plate</h1>
         <Switch>
             <Route exact path="/" component={ExampleComponent} />
